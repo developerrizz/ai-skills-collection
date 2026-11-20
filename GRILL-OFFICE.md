@@ -6,7 +6,7 @@
 
 > 현재 폴더의 새 grill-office에 설치해줘. 제공된 설치 파일과 포함 목록을 먼저 확인한 뒤 `node grill-office-install.mjs --install --no-open`을 실행해. 성공하면 방금 확인된 오피스 주소를 **이 Code 세션의 내장 Browser 탐색 도구로 지금 실제로 열어줘.** 외부 브라우저를 실행하거나 주소만 답하지 마. 현재 작업 폴더에 이미 이 설치본의 미리보기 구성이 있다면 그 구성의 preview_start 도구를 사용해도 돼. 같은 내장 탭에서 공용 데스크의 연구 노트 네 종류와 표시 상태를 확인한 뒤, 다음 실습에 선택할 workspace 경로를 알려줘. 다른 프로젝트나 전역 설정은 바꾸지 마. 도구가 없거나 허용되지 않으면 그 사실을 알려줘.
 
-- [설치 파일](./grill-office-install.mjs)을 현재 폴더에 저장합니다. 같은 폴더에 받은 파일이 있으면 그것을 사용합니다. 포함 목록: `node grill-office-install.mjs --list`. npm·관리자 권한은 필요 없습니다. 새 `grill-office/`에만 쓰며 이미 존재하면 덮어쓰기나 실행 없이 중단합니다.
+- 링크로 받은 경우 **같은 판의 [설치 파일](./grill-office-install.mjs)**을 열어 GitHub의 **Download raw file**로 현재 폴더에 저장합니다. 로컬로 받은 경우에는 동봉한 설치 파일을 사용하고, 웹의 다른 판으로 대체하지 않습니다. 포함 목록: `node grill-office-install.mjs --list`. npm·관리자 권한은 필요 없습니다. 새 `grill-office/`에만 쓰며 이미 존재하면 덮어쓰기나 실행 없이 중단합니다.
 - **설치하던 대화와 실습 대화는 다릅니다.** 설치 대화에서도 내장 탐색 도구로 화면을 볼 수 있지만, 그 대화에 새 workspace의 스킬과 직원 훅이 설치되는 것은 아닙니다. 하위 폴더의 `.claude/launch.json`도 상위 폴더의 설정이 아닙니다. 상위 대화에 탐색 도구 없이 구성 기반 미리보기만 있으면, 방금 설치한 `grill-office/workspace`를 로컬 Code 작업 폴더로 선택하고 **오피스 열어줘**라고 하세요.
 - 서버 준비와 Browser 패널 표시는 별도입니다. 시작한 서버 카드만 생기면 **Open**을 누르세요. 패널은 사용자가 정한 Desktop 레이아웃에 열리며 위치를 강제하지 않습니다. 조직 정책·사용 권한이나 **Settings → Code → Browser tools**를 설치기가 변경하지 않습니다.
 
